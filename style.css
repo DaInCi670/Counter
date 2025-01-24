@@ -1,5 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  width: 100vw;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 3rem;
+  font-size: 3.2rem;
+}
+
+.counter {
+  margin-top: 3rem;
+  font-size: 5.2rem;
+}
+
+.buttons-ctn {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  column-gap: 2rem;
+}
+
+.buttons-ctn span {
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
 }
